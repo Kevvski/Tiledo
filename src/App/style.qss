@@ -1,0 +1,64 @@
+QWidget
+{
+    background-color: #3e3e3e;
+    color: white;
+}
+
+
+QLabel
+{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+
+QLineEdit
+{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 12px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    qproperty-alignment: AlignCenter;
+}
+
+
+QSpinBox
+{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 12px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    qproperty-alignment: AlignCenter;
+}
+
+
+QPushButton
+{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+}
+
+
+QPushButton:hover:!pressed
+{
+    background-color: #999797;
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+}
